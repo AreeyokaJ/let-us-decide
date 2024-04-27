@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%; 
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+
+#logo {
+    float: left;
+   
+}
+
+
+
+#heading {
+    display: inline-block;
+    margin: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-style: italic; 
+    padding-left: 2%;
+}  
+
+#body{
+    background-color: #f5c424;
+    width: 100%;
+    height: 84%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#project{
+    height: 75%;
+    width: 50%;
+    background-color: #f0d573;
+    border-top: none;
+    border-radius: 25px ;
+
+}
+
+#project button {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: black;
+    background-color: #e1718a;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px; 
+}
+
+#project button:hover{
+    background-color: #de95a5;
+}
+
+
+/*Include elements that will appear after the click of the button */
+
+#display{
+    font-size: 20px;
+}
+
+#name {
+    font-size: 50px;
+}
+
+#address{
+    font-size: 20px;
+}
+
+
